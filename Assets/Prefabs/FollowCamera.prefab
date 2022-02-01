@@ -25,8 +25,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.2864876, y: -0.42968944, z: 0.14588754, w: 0.8438061}
-  m_LocalPosition: {x: 2.3816855, y: 15.883941, z: -5.828249}
+  m_LocalRotation: {x: -0.34843686, y: 0.30823895, z: -0.12250492, w: -0.876683}
+  m_LocalPosition: {x: 4.6903143, y: 7.9242764, z: -5.430692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6259903833942930870}
-  - component: {fileID: 1857811332404564241}
+  - component: {fileID: 1236638100}
   m_Layer: 0
   m_Name: FollowCamera
   m_TagString: Untagged
@@ -117,7 +117,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1857811332404564241
+--- !u!114 &1236638100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6259903833942930869}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d4bb1195bae04244a75ad9107df46fe, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fe82de66220eaa4dbf881b06b44ba3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
