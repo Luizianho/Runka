@@ -888,36 +888,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 465096, guid: f65a7bee03bbc4542a4af2c67922b549, type: 3}
   m_PrefabInstance: {fileID: 1237772846}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1367652760 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5625772107047971912, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
-  m_PrefabInstance: {fileID: 5625772107827877328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1367652764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5625772107047971916, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
   m_PrefabInstance: {fileID: 5625772107827877328}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1367652769
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367652760}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9d20ae7451f8a1d4391bcccd14a656d6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1387891549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 496924, guid: 653c97bd88b4b084d87714542c43ee5a, type: 3}
@@ -1390,8 +1365,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1367652765, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
-      propertyPath: m_Speed
-      value: 5.66
+      propertyPath: m_Acceleration
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367652765, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 2500
       objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971912, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_Name
