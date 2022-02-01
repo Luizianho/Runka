@@ -907,7 +907,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367652760}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
   m_Controller: {fileID: 9100000, guid: 9d20ae7451f8a1d4391bcccd14a656d6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -1389,6 +1389,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1367652765, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
+      propertyPath: m_Speed
+      value: 5.66
+      objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971912, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_Name
       value: Player
