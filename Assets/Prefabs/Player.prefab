@@ -2342,6 +2342,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4889047291333877099, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
+      propertyPath: weaponDamage
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971912, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2352,15 +2356,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971916, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.8915796
       objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971916, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0000019073486
       objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971916, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.4258814
       objectReference: {fileID: 0}
     - target: {fileID: 5625772107047971916, guid: b18d6a9974447d649b8cecc44916ae6c, type: 3}
       propertyPath: m_LocalRotation.w
